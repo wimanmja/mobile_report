@@ -10,8 +10,8 @@ class RegisterHeader extends StatelessWidget {
     return Column(children: [
       Container(
         alignment: Alignment.centerLeft,
-        margin: EdgeInsets.only(top: 79),
-        child: Text(
+        margin: const EdgeInsets.only(top: 79),
+        child: const Text(
           'Daftar',
           textAlign: TextAlign.center,
           style: TextStyle(

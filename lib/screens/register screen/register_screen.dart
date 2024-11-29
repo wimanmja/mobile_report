@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter_pw_validator/flutter_pw_validator.dart';
 import 'package:mobile_report/components/headers/header_register.dart';
 import 'package:mobile_report/screens/indonesia_strings.dart';
-import 'package:mobile_report/screens/login_screen.dart';
+import 'package:mobile_report/screens/login%20screen/login_screen.dart';
 
 class RegisterScreen extends StatefulWidget {
   const RegisterScreen({super.key});
