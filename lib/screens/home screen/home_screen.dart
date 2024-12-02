@@ -19,23 +19,6 @@ class _HomeScreenState extends State<HomeScreen> {
         centerTitle: true,
         titleTextStyle: TextStyle(color: Colors.white, fontWeight: FontWeight.bold),
       ),
-      bottomNavigationBar: Container(
-        color: Colors.red,
-        child: Padding(
-          padding: const EdgeInsets.symmetric(horizontal: 15.0, vertical: 8.0),
-          child: GNav(
-            activeColor: Colors.amber,
-            backgroundColor: Colors.red,
-            tabBackgroundColor: Colors.red.shade300,
-            padding: EdgeInsets.all(20),
-            tabs: const [
-              GButton(icon: Icons.home_rounded, iconColor: Colors.white, text: "Home"),
-              GButton(icon: Icons.assignment_add, iconColor: Colors.white, text: "Report"),
-              GButton(icon: Icons.person_rounded, iconColor: Colors.white, text: "Profile")
-            ]
-          ),
-        ),
-      ),
     );
   }
 }
